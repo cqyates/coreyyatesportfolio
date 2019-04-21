@@ -1,3 +1,13 @@
 #pink {
-    background-image: linear-gradient(90deg, rgba(203, 147, 156, 0.283), rgba(203, 147, 156, 0.884));
+    background-image: linear-gradient(90deg, rgba(230, 166, 177, 0.283), rgba(203, 147, 156, 0.884));
+}
+#footer {
+	background: rgb(55, 54, 54);
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    color: #fff;
+    position: fixed;
+    bottom: 0px;
+    margin: 10px;
 }
