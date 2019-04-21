@@ -11,3 +11,28 @@
     bottom: 0px;
     margin: 10px;
 }
+#banner-image {
+    width: 100%;
+    margin: 0pt;
+
+}
+.container {
+    position: relative;
+}
+.centered {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-color: black;
+    border-width: 3px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+
+  #navbarText {
+      text-align: center;
+  }
