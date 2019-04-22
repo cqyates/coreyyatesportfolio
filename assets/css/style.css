@@ -1,6 +1,4 @@
-#pink {
-    background-image: linear-gradient(90deg, rgba(230, 166, 177, 0.283), rgba(203, 147, 156, 0.884));
-}
+
 #footer {
 	background: rgb(55, 54, 54);
     height: 70px;
@@ -14,11 +12,10 @@
 #banner-image {
     width: 100%;
     margin: 0pt;
+    background-image: cover;
 
 }
-.container {
-    position: relative;
-}
+
 .centered {
     position: absolute;
     top: 55%;
@@ -42,5 +39,28 @@
  #about-me {
      margin: 20pt;
      padding: 20pt;
-     
+
  }
+ .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
