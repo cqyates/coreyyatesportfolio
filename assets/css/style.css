@@ -66,18 +66,24 @@ section {
  #about-me {
      margin: 20pt;
      padding: 20pt;
-     background-color: white;
  }
 
  #education {
      margin: 70px;
      padding: 20px;
      text-align: center;
+     float: right;
  }
 #profile-pic {
     width: 350px;
     float: right;
     margin: 0px, 20px, 20px, 20px;
 }
-
+#myEducation {
+    background-image: url("https://hdwallsource.com/img/2015/12/pretty-cherry-blossom-wallpaper-45336-46547-hd-wallpapers.jpg");
+    background-size: cover;
+}
+#aboutMe {
+    background-color: white;
+}
  
