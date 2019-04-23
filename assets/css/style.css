@@ -1,11 +1,13 @@
 /* Defaults */
 body {
    background-color: #333;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
 }
 section {
     font-family: 'Montserrat', sans-serif;
  }
+
 /* Starter Image and Name Box */
 #banner-image {
     width: 100%;
@@ -59,10 +61,6 @@ section {
     bottom: 0px;
     margin: 10px;
 }
-.img-fluid {
-    width: 100%;
-    height: auto;
- }
 
 
  #about-me {
@@ -72,8 +70,14 @@ section {
  }
 
  #education {
-     margin: 40px;
+     margin: 70px;
      padding: 20px;
+     text-align: center;
  }
+#profile-pic {
+    width: 350px;
+    float: right;
+    margin: 0px, 20px, 20px, 20px;
+}
 
  
