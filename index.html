@@ -8,36 +8,45 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
 
     <title>Corey Quinn Yates</title>
   </head>
   <body>
+<!--Starter Image Start-->
   <header>
-    <div class="container col-lg-12">
-        <img id="banner-image" src="https://news.weedmaps.com/wp-content/uploads/2019/02/5021-NWS-UCBerkeley-S-1600x900-AB-v01Banner.png">
-      <div class="centered">
-          <h1> Corey Quinn Yates </h1>
-          <h1> Full Stack Web Developer </h1>
+    <div class="card">
+        <img class="img-fluid" id="banner-image" src="https://news.weedmaps.com/wp-content/uploads/2019/02/5021-NWS-UCBerkeley-S-1600x900-AB-v01Banner.png">
+      <div class="card" id="name-box">
+          <h1><strong>Corey Quinn Yates</strong></h1>
+          <h3> Full Stack Web Developer </h3>
       </div>   
     </div>
-<!--Navbar-->
+    </header>
+<!--Starter Image End-->
+
+<!--Navbar Start-->
 <div class="topnav">
     <div id="menu-items">
       <l1>
       <a href="#aboutMe"> About Me </a>
+      <a href="#myEducation">Education</a>
       <a href="#skills">Skills</a>
-      <a href="#education">Education</a>
-      <a href="#portfolio">Portfolio</a>\
-      <a href="#resume"> Resume </a>
+      <a href="#resume"> Experience </a>
+      <a href="#portfolio">Portfolio</a>
       <a href="#writingSample"> Writing Sample </a>
     </l1>
   </div>
   </div>
+  <!--Navbar End-->
 
-    <section id="aboutMe">
-      <div class="row">
-        <div id="about-me" class="col-lg-7">
-          <h1> About Me </h1>
+<!--About Me Section Start-->
+  <section id="aboutMe">
+    <div class="row">
+      <div id="about-me" class="col-lg-7">
+          <h1><strong> About Me </strong></h1>
           <p> My name is Corey Yates.  I have 15 years experience running my own boutique webstore and I am looking to take my career to the next level.
               I graduated from the University of California at Berkeley in 2006 with a BA in History.  I brought together my love of history, fashion and web design to create 
               Vintage4me2.  We have grown from a single eBay to account to a four platform business with our own website.  I want to take the experience I am gaining through Georgia
@@ -45,60 +54,34 @@
             </p>
             <p> need to add another paragraph </p>
             <p> and one more, because everything is better in 3s!</p>
-        </div>
-        <div class="col-lg-4">
-            <img id="profile-pic" src="assets/images/corey.jpg"> 
-        </div>
       </div>
-    
-    </section>
-    
-    <section class="technical" id="skills">
-        <div class="container">
-          <div class="heading">
-            <h2>Technical Skills</h2>
-            <p>I can say i’m quite good at</p>
-          </div>
-          <div class="row">
-            <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
-              <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="90"> <span class="percent"></span> </span>
-                <h4>Photoshop</h4>
-                <p>Donec accumsan ligula vitae mag na curabitur id</p>
-              </div>
-            </div>
-            <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
-              <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="80"> <span class="percent"></span> </span>
-                <h4>Illustrator</h4>
-                <p>Donec accumsan ligula vitae mag na curabitur id</p>
-              </div>
-            </div>
-            <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
-              <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="80"> <span class="percent"></span> </span>
-                <h4>Flash</h4>
-                <p>Donec accumsan ligula vitae mag na curabitur id</p>
-              </div>
-            </div>
-            <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
-              <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="75"> <span class="percent"></span> </span>
-                <h4>HTML5 / CSS3</h4>
-                <p>Donec accumsan ligula vitae mag na curabitur id</p>
-              </div>
-            </div>
-            <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
-              <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="60"> <span class="percent"></span> </span>
-                <h4>jQuery</h4>
-                <p>Donec accumsan ligula vitae mag na curabitur id</p>
-              </div>
-            </div>
-            <div class=" col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
-              <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 skills"> <span class="chart skilBg" data-percent="65"> <span class="percent"></span> </span>
-                <h4>PHP / MySQL</h4>
-                <p>Donec accumsan ligula vitae mag na curabitur id</p>
-              </div>
-            </div>
-          </div>
+      <div class="col-lg-4">
+            <img class="img-fluid" id="profile-pic" src="assets/images/corey.jpg"> 
+      </div>
+    </div>
+  </section>
+<!--About Me Section End-->
+
+<!--Education Section Start-->
+  <section id="myEducation">
+    <div class="row">
+      <div id="education" class="card">
+        <h1 class="card-title"> <strong> Education </strong></h1>
+        <div>
+          <h4> Georgia Tech Coding Bootcamp </h4>
+          <h6> February 2019 to Present </h6>
+          <p> I am currently attending a 24 week coding bootcamp program by Trilogy and Georgia Tech.
+            I am learning HTML, CSS, Javascript, Node.js, Jquery, SQL, Bootstrap, Git and so much more.
+          </p>
         </div>
-      </section>
+        <div>
+          <h4> University of California at Berkeley</h4>
+          <h6> September 1999 to August 2006 </h6>
+          <p> I received my Bachelor's of Art degree in History.  I learned top-notch critical thinking and written and verbal communication skills.</p>
+        </div>
+    </div>     
+  </section>
+     
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

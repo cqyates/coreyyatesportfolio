@@ -1,52 +1,35 @@
-
-#footer {
-	background: rgb(55, 54, 54);
-    height: 70px;
-    text-align: center;
-    line-height: 70px;
-    color: #fff;
-    position: fixed;
-    bottom: 0px;
-    margin: 10px;
+/* Defaults */
+body {
+   background-color: #333;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+section {
+    font-family: 'Montserrat', sans-serif;
+ }
+/* Starter Image and Name Box */
 #banner-image {
     width: 100%;
-    margin: 0pt;
-    background-image: cover;
-
+    opacity: 0.45;
 }
-
-.centered {
+#name-box {
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    border-color: black;
-    border-width: 3px;
     text-align: center;
     padding: 10px;
     margin: 10px;
-    border-radius: 10px;
-  }
- #profile-pic {
-     width: 500px;
-     float: right;
-     margin: 20pt;
-     padding: 20pt;
-     border-radius: 20px;
- }
- #about-me {
-     margin: 20pt;
-     padding: 20pt;
-
- }
- .topnav {
+    box-shadow: 5px 5px 5px rgb(55, 54, 54);
+}
+/* Navigation Bar */
+.topnav {
     overflow: hidden;
     background-color: #333;
-  }
-  
-  .topnav a {
+    margin-left: 40px;
+}
+
+.topnav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -64,3 +47,33 @@
     background-color: #4CAF50;
     color: white;
   }
+  
+
+#footer {
+	background: rgb(55, 54, 54);
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    color: #fff;
+    position: fixed;
+    bottom: 0px;
+    margin: 10px;
+}
+.img-fluid {
+    width: 100%;
+    height: auto;
+ }
+
+
+ #about-me {
+     margin: 20pt;
+     padding: 20pt;
+     background-color: white;
+ }
+
+ #education {
+     margin: 40px;
+     padding: 20px;
+ }
+
+ 
