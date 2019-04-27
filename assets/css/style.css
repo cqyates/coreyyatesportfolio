@@ -86,4 +86,11 @@ section {
 #aboutMe {
     background-color: white;
 }
- 
+#portfolio {
+    background-color: white;
+}
+ .thumbnail {
+     width: 400px;
+     margin: 20px;
+     box-shadow: 5px 5px 5px rgb(0,0,0);
+ }
