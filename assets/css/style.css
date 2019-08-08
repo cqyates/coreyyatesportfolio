@@ -61,7 +61,11 @@ section {
     bottom: 0px;
     margin: 10px;
 }
-
+#resume-box {
+    background-color: white;
+    margin: 20pt;
+    padding: 20pt;
+}
 
  #about-me {
      margin: 20pt;
