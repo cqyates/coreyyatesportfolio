@@ -24,6 +24,13 @@ section {
     margin: 10px;
     box-shadow: 5px 5px 5px rgb(55, 54, 54);
 }
+.title-img {
+    width: 750px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgb(58, 55, 55)
+}
 /* Navigation Bar */
 .topnav {
     overflow: hidden;
@@ -50,7 +57,7 @@ section {
     color: white;
   }
   
-
+  
 #footer {
 	background: rgb(55, 54, 54);
     height: 70px;
