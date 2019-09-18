@@ -14,16 +14,29 @@
 
   <!--Google Fonts-->
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lemonada&display=swap" rel="stylesheet"> 
 
   <title>Corey Quinn Yates</title>
 </head>
 
 <body>
+    <div class="topnav">
+        <div id="product-menu">
+          <l1>
+            <a href="../NyMagReader/nymagreader.html">NyMag Reader</a>
+            <a href="../giftastic/giftastic.html">Giftastic</a>
+            <a href="../historicalpatternarchive/">Pattern Catalog App</a>
+            <a href="../Vintage4me2/vintage4me2.html">Vintage4me2.com</a>
+            <a href="../worldofimages/worldofimages.html">World of Images</a>
+            <a href="../jamsearch/jamsearch.html">Jam Search</a>
+          </l1>
+        </div>
+      </div>
   <div class="row">
     <div class="col-lg-1"></div>
     <div class="col-lg-10">
       <div class="card" id="app-introduction">
-        <div class="card-title">
+        <div class="card-title" id="ny-title">
           <h1 style="margin:10px">New York Magazine Reader</h1>
         </div>
         <div class="card-body"> This application is a web scraper application that uses a mongoDB database and heroku
@@ -34,10 +47,45 @@
     <div class="col-lg-1"></div>
   </div>
   <div class="row">
-    <div class="col-lg-6">
+    <div class="col-lg-8">
       <a href="https://murmuring-reaches-97106.herokuapp.com/" target="_blank"><img id="product-image"
           src="../../assets/images/Screenshot 2019-07-16 NyMagReader.png"></a>
     </div>
+    <div class="col-lg-3">
+        <div class="card" id="app-technologies">
+          <div class="card-title" id="ny-title"> <h1 style="font-size:25pt">Technologies</h1> </div>
+          <div class="card-body">
+            <li>HTML</li>
+            <li>CSS/Bootstrap</li>
+            <li>Javascript</li>
+            <li>JQuery</li>
+            <li>MongoDB</li>
+            <li>Mongoose</li>
+            <li>Node.js</li>
+            <li>MVC Format</li>
+            <li>Axios</li>
+            <li>Cheerio</li>
+            <li>Web Scraping</li>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script type = "text/javascript">
+      var image = document.getElementById("product-image");
+      var currentPos = 0;
+      var images = ["images/Screenshot 2019-07-16 NyMagReader.png", "images/Screenshot 2019-09-17 22.05.54.png"]
+  
+      function togglePhoto() {
+          if (++currentPos >= images.length)
+              currentPos = 0;
+  
+          image.src = images[currentPos];
+      }
+  
+      setInterval(togglePhoto, 3000);
+  </script>
+  
   </div>
 
 
