@@ -137,10 +137,16 @@ h5 {
 #app-introduction {
     margin-top: 30px;
     margin-bottom: 30px;
+    padding: 10px;
 }
 #product-image {
-    width: 600px;
-    margin-left: 50px;
+    width: 800px;
+    margin-left: 100px;
     margin-bottom: 100px;
     box-shadow: 5px 5px 5px rgb(0,0,0);
+}
+#app-title {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50pt;
+    text-align: center;
 }
