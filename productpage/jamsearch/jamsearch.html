@@ -9,7 +9,8 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="../../assets/css/reset.css">
+  <link rel="stylesheet" href="../../assets/css/style.css">
 
   <!--Google Fonts-->
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -18,8 +19,34 @@
 </head>
 
 <body>
-
- 
+  <div class="row">
+    <div class="col-lg-1"></div>
+    <div class="col-lg-10">
+      <div class="card" id="app-introduction">
+        <div class="card-title">
+          <h1 style="margin:10px">Jam Search</h1>
+        </div>
+        <div class="card-body"> Jam Search is a web based application that utlizes Bands in Town and Youtube APIs to
+          deliever up to date content on bands and musical acts for the user. The user signs in using Google Firebase
+          and searches for an artist. The API returns information on the artist and their upcoming shows. A box appears
+          on the left if there are any upcoming events. The pill buttons allow the user to buy tickets on the venue's
+          webpage. The youtube api returns the top 5 videos for that artist. On the right hand side we display an image
+          of the artist along with their name.</div>
+      </div>
+    </div>
+    <div class="col-lg-1"></div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6">
+      <a href="https://jaimetyler.github.io/project-x/" target="_blank"><img id="product-image"
+          src="images/Screenshot 2019-08-10 16.44.31.png"></a>
+    </div>
+    <div class="col-lg-6">
+      <a href="https://github.com/Jaimetyler/project-x" target="_blank"><img id="product-image"
+          src="images/Screenshot 2019-08-10 16.46.05.png"></a>
+    </div>
+  </div>
+  
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

@@ -130,3 +130,17 @@ section {
      background-image: url('../images/Portfolio-bg-sept-6-2019-revised.jpg');
      background-size: cover;
 }
+h5 {
+    margin: 20px;
+    color: white;
+}
+#app-introduction {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#product-image {
+    width: 600px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    box-shadow: 5px 5px 5px rgb(0,0,0);
+}
