@@ -6,30 +6,15 @@ body {
 }
 section {
     font-family: 'Montserrat', sans-serif;
- }
+}
 
 /* Starter Image and Name Box */
-#banner-image {
-    width: 100%;
-    opacity: 0.45;
-}
 #name-box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-left: 150pt;
+    margin-right: 150pt;
     background-color: white;
     text-align: center;
-    padding: 10px;
-    margin: 10px;
     box-shadow: 5px 5px 5px rgb(55, 54, 54);
-}
-.title-img {
-    width: 750px;
-    height: auto;
-    margin: 10px;
-    padding: 10px;
-    box-shadow: 5px 5px 5px rgb(58, 55, 55)
 }
 /* Navigation Bar */
 .topnav {
@@ -45,7 +30,7 @@ section {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 22px;
-  }
+}
   
   .topnav a:hover {
     background-color: #ddd;
@@ -57,34 +42,23 @@ section {
     color: white;
   }
   
-  
-#footer {
-	background: rgb(55, 54, 54);
-    height: 70px;
-    text-align: center;
-    line-height: 70px;
-    color: #fff;
-    position: fixed;
-    bottom: 0px;
-    margin: 10px;
-}
 #resume-box {
     background-color: white;
     margin: 20pt;
     padding: 20pt;
 }
 
- #about-me {
+#about-me {
      margin: 20pt;
      padding: 20pt;
- }
+}
 
- #education {
-     margin: 70px;
-     padding: 20px;
-     text-align: center;
-     float: right;
- }
+#education {
+    margin: 70px;
+    padding: 20px;
+    text-align: center;
+    float: right;
+}
 #profile-pic {
     width: 350px;
     float: right;
@@ -101,10 +75,10 @@ section {
 #portfolio {
     background-color: white;
 }
- .thumbnail {
-     width: 400px;
-     margin: 20px;
-     box-shadow: 5px 5px 5px rgb(0,0,0);
+.thumbnail {
+    width: 400px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px rgb(0,0,0);
 }
 .flex-box {
     padding: 20pt;
@@ -158,4 +132,23 @@ h5 {
 #product-gif {
     margin-left: 200px;
     margin-top: 20px;
+}
+#footer-title {
+    color: white;
+    text-align: center;
+}
+#header-box {
+    background-image: linear-gradient(to right, rgba(244, 83, 206, 0.1),rgba(131, 78, 119, 0.5))
+}
+#icon-bank {
+    padding: 20px;
+    font-size:75px;
+    margin: 40px;
+}
+.fab {
+    color: black
+}
+#icon-bank a:hover {
+    background-color: #ddd;
+    color: black;
 }
